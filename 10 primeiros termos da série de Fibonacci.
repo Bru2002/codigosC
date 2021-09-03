@@ -1,0 +1,14 @@
+
+int main(){
+    
+    int numero, a=1 , b=1 , x; 
+ 
+    for (x=0; x <= 10 ; x++){
+        printf(" %d, %d, ", a,b);
+        a = a+b;
+        b = a+b;
+        
+        
+    } 
+    return 0;
+}
